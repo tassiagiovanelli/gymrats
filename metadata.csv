@@ -1,0 +1,148 @@
+csv_name,field,description
+account_check_ins.csv,id,Unique identifier for each check-in
+account_check_ins.csv,version,Version number of the record format
+account_check_ins.csv,description,Free-text description of the check-in
+account_check_ins.csv,title,Title or name of the workout
+account_check_ins.csv,timezone,User's timezone at the time of check-in
+account_check_ins.csv,details,
+account_check_ins.csv,duration,Duration of the workout in minutes
+account_check_ins.csv,updated_at,Timestamp of the last update to the record
+account_check_ins.csv,points,
+account_check_ins.csv,steps,
+account_check_ins.csv,created_at,Timestamp of when the check-in occurred
+account_check_ins.csv,calories,
+account_check_ins.csv,distance_miles,
+account_check_ins.csv,duration_millis,
+account_check_ins.csv,workout_entry_id,
+account_check_ins.csv,occurred_at,
+account_check_ins.csv,google_place_id,
+account_check_ins.csv,photo_url,"URL of the workout photo, if uploaded"
+account_check_ins.csv,activity_count,
+account_check_ins.csv,apple_device_name,
+account_check_ins.csv,apple_source_name,
+account_check_ins.csv,apple_workout_uuid,
+account_check_ins.csv,activity_type,
+account_check_ins.csv,challenge_id,
+account_check_ins.csv,activity_metric_amount,
+account_check_ins.csv,activity_type_id,
+account_check_in_media.csv,id,Unique identifier for each check-in
+account_check_in_media.csv,width,
+account_check_in_media.csv,source,
+account_check_in_media.csv,url,
+account_check_in_media.csv,updated_at,Timestamp of the last update to the record
+account_check_in_media.csv,height,
+account_check_in_media.csv,created_at,Timestamp of when the check-in occurred
+account_check_in_media.csv,workout_id,ID linking to a specific workout session
+account_check_in_media.csv,medium_type,
+account_check_in_media.csv,exif_datetime,
+account_check_in_media.csv,exif_data,
+account_check_in_media.csv,thumbnail_url,URL of the media thumbnail
+account_check_in_media.csv,exif_location_latitude,
+account_check_in_media.csv,exif_location_longitude,
+account_check_in_activities.csv,id,Unique identifier for each check-in
+account_check_in_activities.csv,start_time,
+account_check_in_activities.csv,updated_at,Timestamp of the last update to the record
+account_check_in_activities.csv,points,
+account_check_in_activities.csv,steps,
+account_check_in_activities.csv,created_at,Timestamp of when the check-in occurred
+account_check_in_activities.csv,calories,
+account_check_in_activities.csv,distance_miles,
+account_check_in_activities.csv,duration_millis,
+account_check_in_activities.csv,workout_id,ID linking to a specific workout session
+account_check_in_activities.csv,platform_activity,
+account_check_in_activities.csv,activity_metric_amount,
+challenge_check_ins.csv,id,Unique identifier for each check-in
+challenge_check_ins.csv,version,Version number of the record format
+challenge_check_ins.csv,description,Free-text description of the check-in
+challenge_check_ins.csv,title,Title or name of the workout
+challenge_check_ins.csv,timezone,User's timezone at the time of check-in
+challenge_check_ins.csv,details,
+challenge_check_ins.csv,duration,Duration of the workout in minutes
+challenge_check_ins.csv,updated_at,Timestamp of the last update to the record
+challenge_check_ins.csv,points,
+challenge_check_ins.csv,steps,
+challenge_check_ins.csv,created_at,Timestamp of when the check-in occurred
+challenge_check_ins.csv,calories,
+challenge_check_ins.csv,distance_miles,
+challenge_check_ins.csv,duration_millis,
+challenge_check_ins.csv,workout_entry_id,
+challenge_check_ins.csv,occurred_at,
+challenge_check_ins.csv,google_place_id,
+challenge_check_ins.csv,photo_url,"URL of the workout photo, if uploaded"
+challenge_check_ins.csv,activity_count,
+challenge_check_ins.csv,apple_device_name,
+challenge_check_ins.csv,apple_source_name,
+challenge_check_ins.csv,apple_workout_uuid,
+challenge_check_ins.csv,activity_type,
+challenge_check_ins.csv,challenge_id,
+challenge_check_ins.csv,activity_metric_amount,
+challenge_check_ins.csv,activity_type_id,
+challenge_check_ins.csv,challenge_name,
+challenge_check_in_media.csv,id,Unique identifier for each check-in
+challenge_check_in_media.csv,width,
+challenge_check_in_media.csv,source,
+challenge_check_in_media.csv,url,
+challenge_check_in_media.csv,updated_at,Timestamp of the last update to the record
+challenge_check_in_media.csv,height,
+challenge_check_in_media.csv,created_at,Timestamp of when the check-in occurred
+challenge_check_in_media.csv,workout_id,ID linking to a specific workout session
+challenge_check_in_media.csv,medium_type,
+challenge_check_in_media.csv,exif_datetime,
+challenge_check_in_media.csv,exif_data,
+challenge_check_in_media.csv,challenge_id,
+challenge_check_in_media.csv,thumbnail_url,URL of the media thumbnail
+challenge_check_in_media.csv,challenge_name,
+challenge_check_in_media.csv,exif_location_latitude,
+challenge_check_in_media.csv,exif_location_longitude,
+challenge_check_in_media.csv,check_in_title,
+challenge_check_in_activities.csv,id,Unique identifier for each check-in
+challenge_check_in_activities.csv,start_time,
+challenge_check_in_activities.csv,updated_at,Timestamp of the last update to the record
+challenge_check_in_activities.csv,points,
+challenge_check_in_activities.csv,steps,
+challenge_check_in_activities.csv,created_at,Timestamp of when the check-in occurred
+challenge_check_in_activities.csv,calories,
+challenge_check_in_activities.csv,distance_miles,
+challenge_check_in_activities.csv,duration_millis,
+challenge_check_in_activities.csv,workout_id,ID linking to a specific workout session
+challenge_check_in_activities.csv,platform_activity,
+challenge_check_in_activities.csv,challenge_id,
+challenge_check_in_activities.csv,activity_metric_amount,
+challenge_check_in_activities.csv,challenge_name,
+challenge_check_in_activities.csv,check_in_title,
+challenges.csv,id,Unique identifier for each check-in
+challenges.csv,name,Name of the challenge
+challenges.csv,description,Free-text description of the check-in
+challenges.csv,role,
+challenges.csv,start_date,Date when the challenge begins
+challenges.csv,end_date,Date when the challenge ends
+challenges.csv,photo_url,"URL of the workout photo, if uploaded"
+challenges.csv,score_by,
+comments.csv,id,Unique identifier for each check-in
+comments.csv,updated_at,Timestamp of the last update to the record
+comments.csv,content,
+comments.csv,created_at,Timestamp of when the check-in occurred
+comments.csv,workout_id,ID linking to a specific workout session
+messages.csv,id,Unique identifier for each check-in
+messages.csv,updated_at,Timestamp of the last update to the record
+messages.csv,content,
+messages.csv,created_at,Timestamp of when the check-in occurred
+messages.csv,challenge_id,
+messages.csv,message_type,
+profile.csv,id,Unique identifier for each check-in
+profile.csv,twitter,
+profile.csv,timezone,User's timezone at the time of check-in
+profile.csv,instagram,
+profile.csv,uuid,
+profile.csv,updated_at,Timestamp of the last update to the record
+profile.csv,email,User's email address
+profile.csv,created_at,Timestamp of when the check-in occurred
+profile.csv,full_name,
+profile.csv,pro,
+profile.csv,profile_picture_url,
+profile.csv,tik_tok,
+reactions.csv,id,Unique identifier for each check-in
+reactions.csv,updated_at,Timestamp of the last update to the record
+reactions.csv,created_at,Timestamp of when the check-in occurred
+reactions.csv,workout_id,ID linking to a specific workout session
+reactions.csv,reaction,
